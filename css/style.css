@@ -1,0 +1,68 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+#registration{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    inset: 0;
+    position: absolute;
+    background-color: #720f0f81;
+}
+ #registration h4{
+    background-color: rgb(36, 22, 22);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    /* z-index: 22; */
+}  
+.container .form_card{
+   
+    margin: auto;
+    color: rgb(185, 105, 0);
+    padding: 30px;
+    background: #fff;
+
+}
+.container label{
+    font-size: 18px;;
+    color: #080808;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container input{
+    background-color:#999;
+    width: 230px;
+    padding: 8px;
+    display: block;
+    outline: none;
+    border: 0.1px solid #940d0db0;
+    margin: 10px 0 0 0;
+}
+.container form .btn_feild{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container form button{
+    width: 44%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top:10px ;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0px;
+    transition: 0.5s;
+    background-color:rgb(36, 22, 22);
+    color: #fff;
+}
+.container button:hover{
+    background: rgb(207, 131, 44);
+    color: #fff;
+}
